@@ -9,7 +9,7 @@ Turn any PDF into intelligent, structured insights — powered by NLP.
 
 ## 🚀 Live Demo
 
-🔗 **[Try it on Streamlit →](https://pdf-insights-suite-v6g8fizn2n9upxyrs2c5gf.streamlit.app/)**  
+🔗 **[Try it on Streamlit ](https://pdf-insights-suite-v6g8fizn2n9upxyrs2c5gf.streamlit.app/)**  
 
 
 ---
