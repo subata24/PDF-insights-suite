@@ -14,7 +14,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 import nltk
 import spacy
-from spacy.cli import download; download("en_core_web_sm")
+nlp = spacy.blank("en")
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Downloads
@@ -80,9 +80,9 @@ def generate_summary(text, num_sentences=3):
     summary = summarizer(parser.document, num_sentences)
     return " ".join(str(sentence) for sentence in summary)
 
-def extract_entities(text):
-    doc = nlp(text)
-    return [(ent.text, ent.label_) for ent in doc.ents]
+#def extract_entities(text):
+    #doc = nlp(text)
+   # return [(ent.text, ent.label_) for ent in doc.ents]
 
 def analyze_sentiment(text):
     analyzer = SentimentIntensityAnalyzer()
