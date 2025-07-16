@@ -19,6 +19,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Downloads
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 #nlp = spacy.load("en_core_web_sm")
 
 # --- Streamlit Page Settings ---
