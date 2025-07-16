@@ -1,0 +1,10 @@
+streamlit
+fitz  # alias for PyMuPDF
+pymupdf
+matplotlib
+pandas
+rake-nltk
+sumy
+nltk
+spacy
+vaderSentiment
