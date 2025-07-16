@@ -14,6 +14,7 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 import nltk
 import spacy
+from spacy.cli import download; download("en_core_web_sm")
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Downloads
