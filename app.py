@@ -19,7 +19,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Downloads
 nltk.download('stopwords')
-nlp = spacy.load("en_core_web_sm")
+#nlp = spacy.load("en_core_web_sm")
 
 # --- Streamlit Page Settings ---
 st.set_page_config(page_title="PDF Insights Suite", layout="wide")
